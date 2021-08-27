@@ -1,13 +1,13 @@
 title
 -
-title_id INT PK FK - employees.emp_no
+title_id VARCHAR PK FK - employees.emp_title
 title VARCHAR
 
 
 employees
 -
 emp_no INT PK
-emp_title INT FK
+emp_title VARCHAR FK
 birth_date DATE	
 first_name VARCHAR
 last_name VARCHAR
